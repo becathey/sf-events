@@ -1,5 +1,6 @@
 <template>
-  <h1>Upcoming Science Fiction Conventions</h1>
+  <h1>SF Cons</h1>
+  <h3>Upcoming Science Fiction Conventions</h3>
   <div class="events">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
