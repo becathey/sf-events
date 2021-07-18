@@ -30,3 +30,9 @@ export default {
   },
 };
 </script>
+<style scoped>
+div {
+  margin: 0 auto;
+  width: 80%;
+}
+</style>
