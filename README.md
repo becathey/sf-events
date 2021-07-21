@@ -1,6 +1,6 @@
 # SF Cons
 
-A listing of upcoming science fiction conventions.
+A listing of upcoming science fiction conventions created with Vue.js.
 
 ## Project setup
 
