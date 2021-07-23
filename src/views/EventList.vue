@@ -34,7 +34,14 @@ export default {
 <style scoped>
 .events {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
+}
+@media (min-width: 1000px) {
+  .events {
+    width: 950px;
+    margin: 0 auto;
+  }
 }
 </style>

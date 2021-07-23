@@ -26,11 +26,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .event-card {
-  padding: 20px;
   width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid hsl(210, 25%, 30%);
   cursor: pointer;
-  border: 1px solid #39495c;
-  margin-bottom: 18px;
 }
 .event-card:hover {
   transform: scale(1.01);
