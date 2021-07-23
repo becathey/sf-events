@@ -23,10 +23,15 @@
 </template>
 <style scoped>
 .about {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0 10%;
 }
-p {
+.about p {
   text-align: left;
+}
+@media (min-width: 1000px) {
+  .about {
+    width: 750px;
+    margin: 0 auto;
+  }
 }
 </style>
